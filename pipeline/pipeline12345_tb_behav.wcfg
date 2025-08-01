@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="pipeline12345_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="pipeline12345_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="87.851 ns"></ZoomEndTime>
+      <Cursor1Time time="79.450 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="367"></NameColumnWidth>
+      <ValueColumnWidth column_width="175"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="17" />
+   <wvobject fp_name="/pipeline12345_tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipeline12345_tb/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipeline12345_tb/pc_out" type="array">
+      <obj_property name="ElementShortName">pc_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipeline12345_tb/uut/instruction" type="array">
+      <obj_property name="ElementShortName">instruction[31:0]</obj_property>
+      <obj_property name="ObjectShortName">instruction[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipeline12345_tb/uut/IF_ID_Instruction" type="array">
+      <obj_property name="ElementShortName">IF_ID_Instruction[31:0]</obj_property>
+      <obj_property name="ObjectShortName">IF_ID_Instruction[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipeline12345_tb/uut/IF_ID_PC" type="array">
+      <obj_property name="ElementShortName">IF_ID_PC[31:0]</obj_property>
+      <obj_property name="ObjectShortName">IF_ID_PC[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipeline12345_tb/uut/IF_ID_Instruction" type="array">
+      <obj_property name="ElementShortName">IF_ID_Instruction[31:0]</obj_property>
+      <obj_property name="ObjectShortName">IF_ID_Instruction[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipeline12345_tb/uut/ID_EX_PC" type="array">
+      <obj_property name="ElementShortName">ID_EX_PC[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ID_EX_PC[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipeline12345_tb/uut/ID_EX_Read1" type="array">
+      <obj_property name="ElementShortName">ID_EX_Read1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ID_EX_Read1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipeline12345_tb/uut/ID_EX_Read2" type="array">
+      <obj_property name="ElementShortName">ID_EX_Read2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ID_EX_Read2[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipeline12345_tb/uut/ID_EX_ImmExt" type="array">
+      <obj_property name="ElementShortName">ID_EX_ImmExt[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ID_EX_ImmExt[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipeline12345_tb/uut/EX_MEM_ALUResult" type="array">
+      <obj_property name="ElementShortName">EX_MEM_ALUResult[31:0]</obj_property>
+      <obj_property name="ObjectShortName">EX_MEM_ALUResult[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipeline12345_tb/uut/EX_MEM_WriteData" type="array">
+      <obj_property name="ElementShortName">EX_MEM_WriteData[31:0]</obj_property>
+      <obj_property name="ObjectShortName">EX_MEM_WriteData[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipeline12345_tb/uut/MEM_WB_ReadData" type="array">
+      <obj_property name="ElementShortName">MEM_WB_ReadData[31:0]</obj_property>
+      <obj_property name="ObjectShortName">MEM_WB_ReadData[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipeline12345_tb/uut/MEM_WB_ALUResult" type="array">
+      <obj_property name="ElementShortName">MEM_WB_ALUResult[31:0]</obj_property>
+      <obj_property name="ObjectShortName">MEM_WB_ALUResult[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipeline12345_tb/uut/opcode" type="array">
+      <obj_property name="ElementShortName">opcode[5:0]</obj_property>
+      <obj_property name="ObjectShortName">opcode[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipeline12345_tb/uut/ALU_result" type="array">
+      <obj_property name="ElementShortName">ALU_result[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ALU_result[31:0]</obj_property>
+   </wvobject>
+</wave_config>

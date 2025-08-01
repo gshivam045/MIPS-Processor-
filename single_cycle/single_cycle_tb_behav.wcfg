@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="single_cycle_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="single_cycle_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="160.001 ns"></ZoomEndTime>
+      <Cursor1Time time="121.775 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="237"></NameColumnWidth>
+      <ValueColumnWidth column_width="124"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="22" />
+   <wvobject fp_name="/single_cycle_tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/single_cycle_tb/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/single_cycle_tb/pc_out" type="array">
+      <obj_property name="ElementShortName">pc_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/single_cycle_tb/uut/instruction" type="array">
+      <obj_property name="ElementShortName">instruction[31:0]</obj_property>
+      <obj_property name="ObjectShortName">instruction[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/single_cycle_tb/uut/opcode" type="array">
+      <obj_property name="ElementShortName">opcode[5:0]</obj_property>
+      <obj_property name="ObjectShortName">opcode[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/single_cycle_tb/uut/rs" type="array">
+      <obj_property name="ElementShortName">rs[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rs[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/single_cycle_tb/uut/rt" type="array">
+      <obj_property name="ElementShortName">rt[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rt[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/single_cycle_tb/uut/rd" type="array">
+      <obj_property name="ElementShortName">rd[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rd[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/single_cycle_tb/uut/immediate" type="array">
+      <obj_property name="ElementShortName">immediate[15:0]</obj_property>
+      <obj_property name="ObjectShortName">immediate[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/single_cycle_tb/uut/jump" type="array">
+      <obj_property name="ElementShortName">jump[25:0]</obj_property>
+      <obj_property name="ObjectShortName">jump[25:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/single_cycle_tb/uut/immediate_ext" type="array">
+      <obj_property name="ElementShortName">immediate_ext[31:0]</obj_property>
+      <obj_property name="ObjectShortName">immediate_ext[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/single_cycle_tb/uut/readA" type="array">
+      <obj_property name="ElementShortName">readA[31:0]</obj_property>
+      <obj_property name="ObjectShortName">readA[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/single_cycle_tb/uut/readB" type="array">
+      <obj_property name="ElementShortName">readB[31:0]</obj_property>
+      <obj_property name="ObjectShortName">readB[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/single_cycle_tb/uut/write_data" type="array">
+      <obj_property name="ElementShortName">write_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">write_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/single_cycle_tb/uut/registers" type="array">
+      <obj_property name="ElementShortName">registers[0:31][31:0]</obj_property>
+      <obj_property name="ObjectShortName">registers[0:31][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/single_cycle_tb/uut/funct" type="array">
+      <obj_property name="ElementShortName">funct[5:0]</obj_property>
+      <obj_property name="ObjectShortName">funct[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/single_cycle_tb/uut/shamt" type="array">
+      <obj_property name="ElementShortName">shamt[4:0]</obj_property>
+      <obj_property name="ObjectShortName">shamt[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/single_cycle_tb/uut/jump" type="array">
+      <obj_property name="ElementShortName">jump[25:0]</obj_property>
+      <obj_property name="ObjectShortName">jump[25:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/single_cycle_tb/uut/immediate_ext" type="array">
+      <obj_property name="ElementShortName">immediate_ext[31:0]</obj_property>
+      <obj_property name="ObjectShortName">immediate_ext[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/single_cycle_tb/uut/ALU_result" type="array">
+      <obj_property name="ElementShortName">ALU_result[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ALU_result[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/single_cycle_tb/uut/data_memory" type="array">
+      <obj_property name="ElementShortName">data_memory[0:255][31:0]</obj_property>
+      <obj_property name="ObjectShortName">data_memory[0:255][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/single_cycle_tb/uut/MemoryReadData" type="array">
+      <obj_property name="ElementShortName">MemoryReadData[31:0]</obj_property>
+      <obj_property name="ObjectShortName">MemoryReadData[31:0]</obj_property>
+   </wvobject>
+</wave_config>
